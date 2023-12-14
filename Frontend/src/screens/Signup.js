@@ -32,32 +32,33 @@ export default function Signup() {
     return (
         <>
             <Navbar/>
-            <div className="container">
-                <form onSubmit={handleSubmit}>
-                    <div className="mb-3">
-                        <label htmlFor="name" className="form-label">Name</label>
-                        <input type="text" className="form-control" name = 'name' value = {credentials.name} onChange={onChange}/>
+            <div className="cgsignup">
+                <div className="container">
+                    <form onSubmit={handleSubmit}>
+                        <div className="mb-3">
+                            <label htmlFor="name" className="form-label">Name</label>
+                            <input type="text" className="form-control" name = 'name' value = {credentials.name} onChange={onChange}/>
 
-                    </div>
-                    <div className="mb-3">
-                        <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-                        <input type="email" className="form-control" name = 'email' value = {credentials.email}  onChange={onChange} id="exampleInputEmail1" aria-describedby="emailHelp"  />
-                        <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div className="mb-3">
-                        <label htmlFor="exampleInputPassword" className="form-label">Password</label>
-                        <input type="password" className="form-control" name = 'password' value = {credentials.password}  onChange={onChange} id="exampleInputPassword1" />
-                    </div>
-                    <div className="mb-3">
-                        <label htmlFor="geolocation" className="form-label">Address</label>
-                        <input type="text" className="form-control" name = 'geolocation' value = {credentials.geolocation}  onChange={onChange} id="exampleInputPassword" />
-                    </div>
+                        </div>
+                        <div className="mb-3">
+                            <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
+                            <input type="email" className="form-control" name = 'email' value = {credentials.email}  onChange={onChange} id="exampleInputEmail1" aria-describedby="emailHelp"  />
+                        </div>
+                        <div className="mb-3">
+                            <label htmlFor="exampleInputPassword" className="form-label">Password</label>
+                            <input type="password" className="form-control" name = 'password' value = {credentials.password}  onChange={onChange} id="exampleInputPassword1" />
+                        </div>
+                        <div className="mb-3">
+                            <label htmlFor="geolocation" className="form-label">Address</label>
+                            <input type="text" className="form-control" name = 'geolocation' value = {credentials.geolocation}  onChange={onChange} id="exampleInputPassword" />
+                        </div>
 
-                    <button type="submit" className="m-3 btn btn-success">Submit</button>
-                    <Link to="/login" className="m-3 btn btn-success">Already a User</Link>
-                </form>
+                        <button type="submit" className="m-3 btn btn-success">Submit</button>
+                        <Link to="/login" className="m-3 btn btn-success">Already a User</Link>
+                    </form>
 
 
+                </div>
             </div>
 
         </>

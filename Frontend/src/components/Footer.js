@@ -6,14 +6,14 @@ import { Icon } from '@iconify/react';
 function Footer() {
   return (
     <div  >  
-      <footer class=" text-center footer ">
-        <div class="container p-4 pb-0">
+      <footer className=" text-center footer ">
+        <div className="container p-4 pb-0">
 
-          <section class="mb-4">
+          <section className="mb-4">
 
             <a
               data-mdb-ripple-init
-              class="btn text-white btn-floating m-1"
+              className="btn text-white btn-floating m-1"
               
               href="#!"
               role="button"
@@ -21,7 +21,7 @@ function Footer() {
 
             <a
               data-mdb-ripple-init
-              class="btn text-white btn-floating m-1"
+              className="btn text-white btn-floating m-1"
               
               href="#!"
               role="button"
@@ -29,7 +29,7 @@ function Footer() {
 
             <a
               data-mdb-ripple-init
-              class="btn text-white btn-floating m-1"
+              className="btn text-white btn-floating m-1"
               
               href="#!"
               role="button"
@@ -38,7 +38,7 @@ function Footer() {
         
             <a
               data-mdb-ripple-init
-              class="btn text-white btn-floating m-1"
+              className="btn text-white btn-floating m-1"
               
               href="#!"
               role="button"
@@ -47,7 +47,7 @@ function Footer() {
 
             <a
               data-mdb-ripple-init
-              class="btn text-white btn-floating m-1"
+              className="btn text-white btn-floating m-1"
               
               href="#!"
               role="button"
@@ -55,7 +55,7 @@ function Footer() {
 
             <a
               data-mdb-ripple-init
-              class="btn text-white btn-floating m-1"
+              className="btn text-white btn-floating m-1"
               
               href="#!"
               role="button"
@@ -66,10 +66,10 @@ function Footer() {
 
 
 
-        <div class="text-center p-3">
+        <div className="text-center p-3 mt-5 ">
           © 2023 Copyright:
           <a  href="/" style={{"color":"white"}}>FF_Cafe</a>
-          <p>Made with ♥ by Nayan ♥♥♥</p>
+          <p className="mt-3">Made with ♥ by Nayan ♥♥♥</p>
         </div>
         
       </footer>
